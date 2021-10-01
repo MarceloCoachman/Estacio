@@ -16,6 +16,7 @@
                 Barra lateral
             </aside>
 
+            <!--Tabela Simples -->
             <section>
                 <h2>Tabela simples</h2>
                 <table>
@@ -32,9 +33,49 @@
                 </table>
             </section>
 
+            <!--Tabela com titulo -->
             <section>
                 <h2>Tabela mais elaborada</h2>
                 <table>
+                    <tr>
+                        <th>Aluno</th>
+                        <th>Disciplina</th>
+                        <th>Nota</th>
+                    </tr>
+                    <tr>
+                        <td>Marcelo</td>
+                        <td>HTML5</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>Rico</td>
+                        <td>HTML</td>
+                        <td>10</td>
+                    </tr>
+                </table>
+            </section>
+
+            <!--Tabela Simples e borda -->
+            <section>
+                <h2>Tabela simples</h2>
+                <table width="100%" border="1">
+                    <tr>
+                        <td>Marcelo</td>
+                        <td>HTML</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>Rico</td>
+                        <td>HTML</td>
+                        <td>10</td>
+                    </tr>
+                </table>
+            </section>
+
+            <!--Tabela com titulo e borda -->
+            <section>
+                <h2>Tabela mais elaborada</h2>
+                <table width="100%" border="1">
                     <tr>
                         <th>Aluno</th>
                         <th>Diciplina</th>
@@ -52,6 +93,69 @@
                     </tr>
                 </table>
             </section>
+
+            <!--Tabela com cabeçalho e rodapé -->
+            <section>
+                <h2>Tabela com cabeçalho e rodapé</h2>
+                <table width="100%" border="1">
+                    <thead>
+                        <tr>
+                            <th>Mês</th>
+                            <th>Horas/Aula</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Junho</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Julho</td>
+                            <td>30</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>Total</td>
+                            <td>70</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+
+            <!--Tabela com colspan -->
+            <section>
+                <h2>Tabela com colspan</h2>
+                <table width="100%" border="1">
+                    <tr>
+                        <th>Aluno</th>
+                        <th colspan="2">Disciplina</th>
+                    </tr>
+                    <tr>
+                        <td>Marcelo</td>
+                        <td>HTML</td>
+                        <td>Ambiente WEB</td>
+                    </tr>
+                </table>
+            </section>
+
+            <!--Tabela com rowspan -->
+            <section>
+                <h2>Tabela com rowspan</h2>
+                <table width="100%" border="1">
+                    <tr>
+                        <th>Aluno</th>
+                        <td>Marcelo</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">Disciplina</th>                        
+                        <td>HTML</td>                        
+                    </tr>
+                    <tr>
+                        <td>Ambiente WEB</td>
+                    </tr>
+                </table>
+            </section>      
 
 
         </main>
