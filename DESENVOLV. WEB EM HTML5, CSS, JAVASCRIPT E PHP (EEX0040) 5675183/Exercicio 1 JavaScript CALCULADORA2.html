@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>Patricando JavaScript - exercício 1 CALCULADORA 1</title>
+</head>
+<body>
+    
+</body>
+<script type="text/javascript">
+    var num1 = prompt("Insira o primeiro múmero: ");
+    var num2 = prompt("Insira o sedundo múmero: ");
+    var operacao = prompt("Qual operação deseja realizar? (Digite + , - , * ou / ");
+    var resultadoOperacao = realizaOperacao(num1,num2,operacao);
+
+    alert('O resultado da operação é : ' + resultadoOperacao);
+
+    function realizaOperacao(num1,num2,op){
+        var resultado = 0;
+
+        //resultado = numero1 + eval(op) + numero2;
+        resultado = eval(num1 + op + num2);
+
+        return resultado;
+    }
+
+
+
+</script>
+
+</html>
