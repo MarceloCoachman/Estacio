@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>Patricando JavaScript - exercício 1 CALCULADORA 1</title>
+</head>
+<body>
+    
+</body>
+<script type="text/javascript">
+    var num1 = prompt("Insira o primeiro múmero: ");
+    var num2 = prompt("Insira o sedundo múmero: ");
+    var operacao = prompt("Qual operação deseja realizar? (Digite + , - , * ou / ");
+    var resultadoOperacao = 0;
+
+    if(operacao == '+')
+        resultadoOperacao = soma(num1, num2);
+    if(operacao == '-')
+        resultadoOperacao = diminui(num1, num2);
+    if(operacao == '*')
+        resultadoOperacao = multiplica(num1, num2);
+    if(operacao == '/')
+        resultadoOperacao = divide(num1, num2);
+    
+    alert('O resultado da operação é : ' + resultadoOperacao);
+
+    function soma (num1, num2){
+        return parseInt(num1) + parseInt(num2);
+    }
+    function diminui (num1, num2){
+        return parseInt(num1) - parseInt(num2);
+    }
+    function multiplica(num1, num2){
+        return parseInt(num1) * parseInt(num2);
+    }
+    function divide(num1, num2){
+        return parseInt(num1) / parseInt(num2);
+    }
+
+
+
+</script>
+
+</html>
